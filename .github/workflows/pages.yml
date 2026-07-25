@@ -26,6 +26,7 @@ jobs:
         run: |
           base64 -d source-bundle.tar.gz.b64 > source-bundle.tar.gz
           tar -xzf source-bundle.tar.gz
+          sed -i '1,2d' src/style.css
       - uses: actions/setup-node@v4
         with:
           node-version: 22
