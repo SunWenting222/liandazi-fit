@@ -1,0 +1,43 @@
+:root {
+  --brand-50: #edf5f2;
+  --brand-100: #d7e8e2;
+  --brand-200: #acd3c8;
+  --brand-300: #78b6a7;
+  --brand-400: #4b9587;
+  --brand-500: #2f776d;
+  --brand-600: #245f58;
+  --brand-700: #1d4c47;
+  --brand-800: #193d3a;
+  --brand-900: #163431;
+  --accent: #e66f45;
+  --success: #26785d;
+  --danger: #b8453f;
+  --warning: #9a651d;
+  --info: #326d8b;
+  --page: #f3f5ef;
+  --panel: #fbfcf8;
+  --subtle: #e9ede5;
+  --raised: #ffffff;
+  --border: #d9ded5;
+  --text: #18302d;
+  --text-secondary: #526562;
+  --text-muted: #788784;
+  --shadow-card: 0 18px 45px rgb(22 52 49 / 8%);
+  --shadow-modal: 0 32px 80px rgb(15 35 33 / 28%);
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 24px;
+  --radius-xl: 36px;
+}
+
+:root[data-theme="dark"] {
+  --page: #101a18;
+  --panel: #162421;
+  --subtle: #1d2d2a;
+  --raised: #21332f;
+  --border: #31443f;
+  --text: #edf5f2;
+  --text-secondary: #b7c8c3;
+  --text-muted: #879b95;
+  --shadow-card: 0 18px 45px rgb(0 0 0 / 20%);
+}
